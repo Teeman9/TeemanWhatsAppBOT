@@ -18,10 +18,9 @@ const _0x138100=_0x2ef9;(function(_0x11971a,_0x460754){const _0x419220=_0x2ef9,_
 global.autoTyping = false     //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false  //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = false     //auto reading in gc (true to on, false to off)
-global.autoRecord = false     //auto recording (true to on, false to off)
-global.available = true       //auto available (true to on, false to off)
-
-
+global.autoRecord = true      //auto recording (true to on, false to off)
+global.available = false       //auto available (true to on, false to off)
+global.autoTyping = true      //auto typing (true to on, false to off)
 
 
 
@@ -42,38 +41,38 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 
 
-global.vcardowner = ['447405935355'] //ur owner number
+global.vcardowner = ['+263789661013] //ur owner number
 
-global.ownername = '𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼' //ur owner name
+global.ownername = 'TEEMAN' //ur owner name
 
-global.ytname = "YT: AlienAlfa" //ur yt chanel name
+global.ytname = "YT:SOCIAL TODAY" //ur yt chanel name
 
-global.socialm = "GitHub: Alien-Alfa" //ur github or insta name
+global.socialm = "Instagram:@teem.an9" //ur github or insta name
 
-global.location = "UK, London, hertfordshire" //ur location
-
-
+global.location = "Zimbabwe,Bulawayo, Cowdray Park " //ur location
 
 
-global.owner = ['447405935355']
 
-global.ownertag = '447405935355' //ur tag number
 
-global.botname = "𝒜𝓊𝓇𝑜𝓇𝒶 𝐵𝒪𝒯-𝑀𝒟" //ur bot name
+global.owner = ['+263789661013']
 
-global.linkz = 'https://www.youtube.com/alienalfa' //your theme url which will be displayed on whatsapp
+global.ownertag = '+263789661013' //ur tag number
+
+global.botname = "Social Today services " //ur bot name
+
+global.linkz = '  https://chat.whatsapp.com/BTpNxXRWsaNK8taLkHQwKl ' //your theme url which will be displayed on whatsapp
 
 global.websitex = 'https://www.GITHUB.com/alien-alfa' //ur website to be displayed
 
 global.botscript = 'https://github.com/Alien-Alfa/WhatsAppBot-MD-BETA2' //script link
 
-global.reactmoji = "😘" //ur menu react emoji
+global.reactmoji =  "™️" //ur menu react emoji
 
-global.themeemoji = "🐤" //ur theme emoji
+global.themeemoji = "™️" //ur theme emoji
 
-global.packname = '🐥 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼-𝙈𝘿 \n😻 T\n🥰 E\n🤩\n🥹 A\n🥳 M\n😜 O\n😏\n😘 C\n🤪 A\n😳 R\n🫠 I\n🫡 N\n🥺 O\n' //ur sticker watermark packname
+global.packname = ' Teeman Stickers' //ur sticker watermark packname
 
-global.author = '\n△   ᴀʟɪᴇɴᴀʟꜰᴀ\n▷   ꜱᴀꜰᴡᴀɴɢᴀɴᴢ\n◁   ᴀᴊᴍᴀʟ\n△   ɴᴇᴇʀᴀᴊ \n▷   xᴇᴏɴ ' //ur sticker watermark author
+global.autorname = 'Teeman ' //ur sticker watermark author
 
 
 
@@ -91,7 +90,7 @@ global.thumbz = 'https://github.com/Alien-alfa/Alien-alfa/blob/beta/Alfa.jpg?raw
 
 
 
-global.premium = global.premiumzz || ['447405935355'] //ur premium numbers
+global.premium = global.premiumzz || ['263789661013'] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
@@ -120,9 +119,9 @@ global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '𒆜'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
+    admin: 'This Feature Is Only For President !',
     botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
+    owner: 'This Feature Is Only For President !',
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
@@ -130,12 +129,12 @@ global.mess = {
     linkm: 'Where is the link?',
     error: 'Error!!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    ban: 'You have been banned by the Presidential , if you want to be unbanned, chat Admins.',
+    nsfw: 'The nsfw feature has not been activated, please contact the President to activate',
+    banChat: 'The bot was banned in this group, please contact the President unban'
 }
 
-global.SessName = './session.alfa.json'
+global.SessName = ' eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUpRRTRMTUhEY0tqQkJvNEhaSkNjSXFDdWlXdzdEV0lxdG0xMmN3VGlITT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia2lZMCtSbVNOTE9pWnNxZlU1YlY4T2VPcldyekhsMWlieU9qN1FJL0dWcz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBTXNSSlAzb09udmF2MUJHVXJXWDVvZkNVTFFIdC9sdm1OKzQwRlpscjFNPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ6V3VwZFRUK0lJdlIvSTBGelFhdEQwZDFPaWsxZWhWbWZxNFROYXluUVI4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjhBNXNJSEV6clRtck1LTlpFNThLVlpPNE5VT1ZPVUlWUHphL3RPUWwwVzg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlA4dlM0OFE3TlVUUThNSlo4eEd2OEtJaDlEbS91ODVoUDBuOGpjdjdCSHc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUFvWStQWURmUXJvTEtnVXlWNVVwbnUzMHhMNE5LcjlHUFR2S2ZmdzRIdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUml3ZXc2TkhWQndCS2tGNFVTektDYWVKQ2hTSTVpem01OUFGcU95by8yND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjRBZWEzT202bGc1TGErZGFWN2RZR0NNMTBTbmJnRS8vOG9tS2hrRVpldVhBZTZVNk1tV2M2eG5sQmZPMGNxRkxEcDhSa1J3NkIwS2p0eEhTck1JcENRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTM5LCJhZHZTZWNyZXRLZXkiOiJDVmh2UWVzZE9jbThBNEh2cm5adkxXSzd5WGdNQjVnRE1zZnNjcVQ4UjFnPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJxNFlFMkR1M1RXYUFnLU5DaTZEcXVnIiwicGhvbmVJZCI6IjBiNmZiN2E2LTA3ODMtNDY1ZC1hOGJhLTI0OWY4NzUyZDhmZSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJQV3ZZL1NCbUR0UUkrY3p3ZlQvRTFGQ1pVTGM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK3BXcDVUT2hRZ0RjR3UrTWhhV3FQK1JrTDdFPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkRYTjZEWFZHIiwibWUiOnsiaWQiOiIyNjM3ODk2NjEwMTM6MUBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJUZWVtYW4ifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ09tdW14VVFwdGZZdHdZWUFTQUFLQUE9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InF2cEtPMXZNbWdVb0d4Zk5RNk5Pem94cklPalYwT0VPU0FnWmpTbmxwRms9IiwiYWNjb3VudFNpZ25hdHVyZSI6InpqQkkyMXc3UDBwY1pMTEExZHlTWmRvQUM2QmF4dFpyZWJ6RnF2YytlMmhlT1FnT05CL0cvSG15RTlPN1FRWGZDUURWQlY0YXZFWWh2OHNZS2VKeENBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJtZ1RxeUNia3lZUUw1L2NVYzdOZ0NQM1B4MFJGRUk5WUdiVThNUXZuTUEralpDTzRmT2xxRUJTeVhtSWI2NlNNaDYrNlZSazBpZnZobEJZWWs5OTdBZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI2Mzc4OTY2MTAxMzoxQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmFyNlNqdGJ6Sm9GS0JzWHpVT2pUczZNYXlEbzFkRGhEa2dJR1kwcDVhUloifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3Mjc0MDkwNzZ9 '
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 let worktypez = process.env.WORKTYPE === undefined ? 'Private' : process.env.WORKTYPE
@@ -144,7 +143,7 @@ let workres = worktypez.toLowerCase()
 //-------------
 if (workres === 'public') {global.worktype = 'public'} 
 //-------------
-else {global.worktype = 'private'}
+else {global.worktype = 'public'}
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 global.gversion = '1.8.0 BETA TEST'
